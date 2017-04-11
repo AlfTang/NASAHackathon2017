@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '2&58700ax944#3s(gdpu^pj-#93-p&v5xnwsi@tlwf)ami&94p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['descinerds.eastasia.cloudapp.azure.com',]
 
 
 # Application definition
