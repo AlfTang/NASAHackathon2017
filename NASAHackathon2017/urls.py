@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from playground.views import MyRESTView
 
 urlpatterns = [
+    url(r'^$', MyRESTView.as_view(), name='my_rest_view'),
     url(r'^playground/', include('playground.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^', include('playground.urls')),
