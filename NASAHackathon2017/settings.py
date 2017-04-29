@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['descinerds.eastasia.cloudapp.azure.com',]
 # Application definition
 
 INSTALLED_APPS = [
-    'rest_frame_work',
+    'rest_framework',
     'playground.apps.PlaygroundConfig',
     'django.contrib.admin',
     'django.contrib.auth',
